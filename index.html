@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+      <header class="py-2 border-bottom bg-primary">
+        <div class="container d-flex flex-row justify-content-between align-items-center">
+            <img src="./images/logo.jpg" class="img-fluid" style="width: 80px; height: 80px"
+             alt="Logo">
+            
+        <button class="border border-0 bg-transparent d-md-none">
+          <span class="material-symbols-outlined">
+            pool
+            </span>    
+        </button>
+        <nav class="d-none d-md-block  ">
+            <ul class="d-flex flex-row mb-0 gap-4 list-unstyled  ">
+                <li>
+                    <a class="text-decoration-none text-secondary text-dark" href="#">Popular Rides</a>
+                </li>
+                <li>
+                    <a class="text-decoration-none text-secondary text-dark " href="#">Packages</a>
+                </li>
+                
+                <li>
+                    <a class="text-decoration-none text-secondary text-dark" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+   <main>
+  
+      
+      <section id="intro" class="introduction">
+        <div class="container">
+          <h1>Welcome to Amazon Water Theme Park</h1>
+          <p>Experience the thrill and excitement of our amazing rides and attractions!</p>
+      </div>
+      </section>
+      <section id="popular-rides" class="py-4 ">
+        <div class="container">
+          <h2 class="text-center text-primary mb-4">Popular Rides</h2>
+          <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+            <img src="./images/ride 1.jpeg" class="card-img-top" alt="Ride 1">
+            <div class="card-body bg-info text-black">
+              <h5 class="card-title text-danger">Aqua Twist Rapids</h5>
+              <p class="card-text">Brace yourself for a wild ride down twisting rapids, where you'll navigate through rushing water and swirling currents, experiencing thrilling dips and turns along the way.Enjoy the ghosh!</p>
+            </div> 
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="card bg-info text-black">
+            <img src="./images/ride 2.jpeg" class="card-img-top" alt="Ride 2">
+            <div class="card-body bg-info text-black ">
+              <h5 class="card-title text-danger">SplashDown Canyon</h5>
+              <p class="card-text">Embark on an exhilarating journey through a canyon filled with splashing waterfalls and unexpected twists, culminating in an epic splashdown finale that will leave you soaked and smiling.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <img src="./images/ride 3.avif" class="card-img-top" alt="Ride 3">
+            <div class="card-body bg-info text-black">
+              <h5 class="card-title text-danger">Surf's Up Slide</h5>
+              <p class="card-text">Catch the perfect wave on this adrenaline-pumping slide, where you'll surf down a towering wave of water before carving through thrilling twists and turns to the bottom.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section id="packages" class="py-4">
+      <div class="container">
+        <h2 class="text-center text-primary mb-4">Packages</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h5 class="card-title text-black">SPLASH FUN PACKAGE </h5>
+                <p class="card-text text-warning">Admission for a full day of aquatic excitement with access to all rides and attractions</p>
+                <p class="card-text">Price: $50</p>
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h5 class="card-title text-black"> THRILL SEEKER PACKAGE</h5>
+                <p class="card-text text-warning">Unlimited access to all extreme water slides and thrill rides with access to all rides, attractions, and fast pass</p>
+                <p class="card-text">Price: $100</p>
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h5 class="card-title text-black">FRIENDS PACKAGE</h5>
+                <p class="card-text text-warning">Group admission discounts for parties of 4 or more with access to all rides, attractions, fast pass, and VIP lounge</p>
+                <p class="card-text">Price: $200</p>
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 ">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div >
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div >
+              <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="text-center">
+  <p>&copy; 2024 Water Theme Park. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
+
+  
+
+
+
